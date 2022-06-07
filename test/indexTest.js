@@ -6,7 +6,7 @@ describe('index.js', () => {
     });
   });
 
-  describe('welcomeMessage', () => {
+  describe('welcomeMessagle', () => {
     it('contains "Welcome to Flatbook, "', () => {
       expect(welcomeMessage).to.have.string('Welcome to Flatbook, ');
     });
